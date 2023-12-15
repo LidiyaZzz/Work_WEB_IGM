@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text,
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  width: 60%;
+}
+
+.images {
+  width: 38%;
+}
+
+figure {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  padding: 0.5em;
+  font-size: 13px;
+  color: #ffffff;
+  font-style: italic;
+  background-color: rgba(34, 34, 34, 0.5490196078);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all ease 1s;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  transition: all ease 1s;
+}/*# sourceMappingURL=style.css.map */
