@@ -1,0 +1,34 @@
+.dir p {
+  font-size: 16px;
+}
+.dir td {
+  padding: 0.3em 1em;
+  padding-right: 0;
+}
+.dir .card {
+  width: 800px;
+  margin-left: auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.dir .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dir .text {
+  width: 600px;
+}
+.dir .images {
+  width: 170px;
+  height: 195px;
+  overflow: hidden;
+  box-shadow: -5px -5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.dir .images > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
