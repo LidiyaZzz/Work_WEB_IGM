@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat, serif;
+}
+
+.achieve {
+  width: 840px;
+  border: solid 1px #ffffff;
+  margin: auto;
+}
+
+.achieve .card {
+  margin-bottom: 100px;
+}
+.achieve .title {
+  padding: 0.5em;
+  background-color: #1A56A2;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.achieve .title h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 0.5em;
+  font-weight: 700;
+}
+.achieve .subtitle, .achieve .publication {
+  color: #1A56A2;
+  text-align: right;
+  width: 700px;
+  margin-left: auto;
+}
+.achieve .subtitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+.achieve .publication {
+  font-size: 12px;
+}
+.achieve .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.achieve .description .img {
+  width: 48%;
+}
+.achieve .description .text {
+  margin-left: 1.5em;
+  width: 51%;
+}
+
+figure {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+figure > figcaption {
+  padding: 0.5em;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  font-style: italic;
+  background-color: rgba(34, 34, 34, 0.5490196078);
+  opacity: 0;
+  transition: all ease 1s;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  transition: all ease 1s;
+}/*# sourceMappingURL=style.css.map */
