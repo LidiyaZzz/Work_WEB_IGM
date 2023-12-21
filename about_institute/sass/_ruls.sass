@@ -1,13 +1,23 @@
 .ab_inst
+    & p         
+        font-size: 16px
     & .content
         display: flex
         justify-content: space-between
         margin-bottom: 50px
+        flex-wrap: wrap
     & .text, 
     & .images
         display: flex
         flex-direction: column
+        justify-content: space-between
     & .text
-        width: 60%
+        width: 57%
     & .images
-        width: 38%
+        width: 39%
+
+@media (max-width: 769px) 
+    .ab_inst
+        & .text,
+        & .images
+            width: 100%
