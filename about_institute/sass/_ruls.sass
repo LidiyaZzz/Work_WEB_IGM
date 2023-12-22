@@ -1,4 +1,4 @@
-.ab_inst
+.ab_inst    
     & p         
         font-size: 16px
     & .content
@@ -13,11 +13,31 @@
         justify-content: space-between
     & .text
         width: 57%
+        
     & .images
         width: 39%
 
-@media (max-width: 769px) 
+// @media (max-width: 900px)     
+//     .ab_inst
+//         width: 90%
+
+@media (max-width: 1219px)     
     .ab_inst
+        & .content
+            margin-bottom: 0
         & .text,
-        & .images
+        & .images            
             width: 100%
+        & .images
+            flex-direction: row
+            &  figure:not(:last-child)                
+                    margin-right: 15px
+
+@media (max-width: 767px)     
+    .ab_inst figcaption
+            display: none
+
+@media (max-width: 454px)     
+    .ab_inst        
+        & .images
+            display: none
